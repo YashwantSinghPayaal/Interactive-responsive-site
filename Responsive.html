@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Responsive Quiz and Carousel</title>
+        <link rel="stylesheet" href="stylec.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2>Responsive Interactive Webpage</h2>
+
+            <div class="quiz">
+                <h3>Quiz Time!</h3>
+                <div class="question" id="question"></div>
+                <div class="answers" id="answers"></div>
+                <div id="result"></div>
+            </div>
+
+            <div class="carousel">
+                <h3>Image Carousel</h3>
+                <img src="C:\Users\HP\Downloads\Paris.webp" class="active" />
+                <img src="C:\Users\HP\Downloads\Mars.webp" />
+                <img src="C:\Users\HP\Downloads\mt everest.webp" />
+                <button onclick="prevImage()">Previous</button>
+                <button onclick="nextImage()">Next</button>
+            </div>
+
+            <div class="api-data">
+                <h3>Random Joke</h3>
+                <button onclick="fetchJoke()">Get Joke</button>
+                <p id="joke"></p>
+            </div>
+            </div>
+
+            <script src="scriptc.js"></script>
+    </body>
+</html>
